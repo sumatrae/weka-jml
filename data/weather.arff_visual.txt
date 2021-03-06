@@ -1,0 +1,14 @@
+digraph{
+DecisionTree_null->outlook_sunny
+outlook_sunny->humidity_high
+humidity_high->no
+outlook_sunny->humidity_normal
+humidity_normal->yes
+DecisionTree_null->outlook_overcast
+outlook_overcast->yes
+DecisionTree_null->outlook_rainy
+outlook_rainy->windy_TRUE
+windy_TRUE->no
+outlook_rainy->windy_FALSE
+windy_FALSE->yes
+}
